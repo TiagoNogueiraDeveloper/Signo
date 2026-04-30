@@ -1,0 +1,64 @@
+/* Remove margens padrões do navegador*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estiliza o corpo da página */
+body {
+    font-family: Arial, sans-serif; /*fonte do texto da página*/
+    color: white; /*cor do texto*/
+    min-height: 100vh; /*o estilo ocupa a tela toda*/
+
+    display: flex; /*ativa o flex pra facilitar a organização do conteudo*/
+    flex-direction: column; /*coloca os conteudos um embaixo do outro*/
+    align-items: center; /*alinha os elementos horizontalmente*/
+    justify-content: center;/*alinha os elementos verticalmente*/
+    background: linear-gradient(135deg, #0f172a, #1e3a8a, #3b82f6); /*fundo da tela com degradê*/
+}
+
+/* Título do topo */
+header h2 {
+    margin-top: 30px; /*cria um espaço acima do elemento*/
+    font-size: 40px; /*tamho do texto*/
+}
+
+/* Container principal */
+main {
+    margin-top: 30px; /*cria um espaço acima do elemento*/
+    width: 900px; /*define a largura*/
+    padding: 30px; /*cria um espaçamento interno*/
+    border-radius: 20px; /*cria bordas no main*/
+
+    background: rgba(255, 255, 255, 0.08); /*efeito de trasnparencia*/
+    backdrop-filter: blur(10px); /*efeito de desfoque*/
+
+    display: flex; /*ativa o flex-box*/
+    flex-direction: column;
+    align-items: center;
+    gap: 25px; /*espaçamento entre os elementos*/
+}
+
+/* tamanho da imagem */
+main img {
+    width: 250px;
+}
+
+/* Seções */
+section {
+    width: 100%;
+}
+
+/* Títulos das seções */
+h3 {
+    font-size: 22px;
+    margin-bottom: 8px;
+    color: #c7d2fe;
+}
+
+/* Texto */
+p {
+    font-size: 17px;
+    line-height: 1.5;
+}
